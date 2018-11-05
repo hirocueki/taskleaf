@@ -1,24 +1,9 @@
-# README
+# タスク管理アプリケーション「Taskleaf」
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[現場で使える Ruby on Rails 5速習実践ガイド 大場 寧子](https://www.amazon.co.jp/dp/B07JHQ9B5T/ref=cm_sw_r_tw_dp_U_x_GSe4BbDCPYD95) で使用されるサンプルアプリケーションの写経です。
 
-Things you may want to cover:
+## 本書と異なる部分
 
-* Ruby version
+- Slim ではなく Haml を使用
+- Bootstrap は 4.1.1 を使用
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
