@@ -19,7 +19,7 @@ describe 'タスク管理機能', type: :system do
       end
     end
 
-    context 'ユーザーBがログインんしているとき' do
+    context 'ユーザーBがログインしているとき' do
       before do
         FactoryBot.create(:user, name: 'ユーザーB', email: 'b@example.com')
         visit login_path
