@@ -13,7 +13,10 @@
 
       %ul.navbar-nav.ml-auto
         - if current_user
-          %li.nab-item= link_to current_user.name, admin_user_path(current_user), class: 'nav-link'
+          %li.nab-item
+            = link_to admin_user_path(current_user), class: 'nav-link' do
+              = image_tag InitialAvatar.avatar_data_uri(current_user.name.first), class: 'avatar'
+              = current_user.name
           %li.nab-item= link_to 'タスク一覧', tasks_path, class: 'nav-link'
           - if current_user.admin?
             %li.nab-item= link_to 'ユーザー一覧', admin_users_path, class: 'nav-link'

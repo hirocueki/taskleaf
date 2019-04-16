@@ -110,6 +110,7 @@ GEM
       ruby_parser (~> 3.5)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
+    initial_avatar (0.1.1)
     io-like (0.3.0)
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
@@ -301,6 +302,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   factory_bot_rails (~> 4.11)
   haml-rails
+  initial_avatar
   jbuilder (~> 2.5)
   jquery-rails
   kaminari
