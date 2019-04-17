@@ -13,6 +13,8 @@ class TasksController < ApplicationController
   end
 
   def show
+    impressionist(@task, nil, :unique => [:session_hash])
+    @page_views = @task.impressionist_count
   end
 
   def new
